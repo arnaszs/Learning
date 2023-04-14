@@ -76,10 +76,10 @@
 
 ##
 
-atlygis = input("Iveskite savo atlygi: ")
-procentas = input("Iveskite savo mokesciu procenta: ")
-neto = int(atlygis) * (1 - int(procentas) / 100)
-print(f"Jusu atlyginimas i rankas yra {neto:.02f} EUR")
+# atlygis = input("Iveskite savo atlygi: ")
+# procentas = input("Iveskite savo mokesciu procenta: ")
+# neto = int(atlygis) * (1 - int(procentas) / 100)
+# print(f"Jusu atlyginimas i rankas yra {neto:.02f} EUR")
 
 # konversijos_tipas = input("Pasirinkite konversijos tipą (įveskite C arba F): ")
 # temperatura = input("Įveskite temperatūrą: ")
@@ -92,6 +92,11 @@ print(f"Jusu atlyginimas i rankas yra {neto:.02f} EUR")
 #     print(f"{temperatura} laipsnių Farenheito yra {celsius:.2f} laipsnių Celsijaus.")
 # else:
 #     print("Neteisingas konversijos tipas. Bandykite dar kartą.")
+
+# print("\U0000274C")
+
+import os
+os.system('cls')
 
 
 
