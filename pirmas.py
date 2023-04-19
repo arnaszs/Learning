@@ -95,8 +95,10 @@
 
 # print("\U0000274C")
 
-import os
-os.system('cls')
-
+def lyginis_nelyginis(skaicius):
+    if skaicius % 2 == 0:
+        print("Įvestas skaičius yra lyginis.")
+    else:
+        print("Įvestas skaičius yra nelyginis.")
 
 
