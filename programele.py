@@ -14,7 +14,7 @@ class Bank:
             print('1: Saskaitos likutis')
             print('2: Nusiimti pinigų')
             print('3: Įsidėti pinigų')
-            print('9: Palikti bankomatą nes neturi pinigų LOL')
+            print('9: Palikti bankomatą nes negavai algos')
 
             pasirinkimas = int(input('Įrašykite savo pasirinkimą: '))
 
@@ -60,3 +60,5 @@ class Bank:
 
 
 saskaita = Bank('Arnas', 'LT123456789', 3670)
+
+print('Labas pasauliiiiii')
