@@ -1,12 +1,12 @@
-from datetime import datetime
-from zoneinfo import ZoneInfo, available_timezones
-from pprint import pprint
 
-america_time_zones = []
+from zoneinfo import available_timezones
+
+
+amerikos_laiko_zonos = []
 
 for tz in available_timezones():
     if 'America' in tz:
-        america_time_zones.append(tz)
+        amerikos_laiko_zonos.append(tz)
 
-for time_zone in america_time_zones:
-    print(time_zone)
+for laiko_zona in amerikos_laiko_zonos:
+    print(laiko_zona)
